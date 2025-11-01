@@ -31,7 +31,9 @@ jobs:
         with:
           context: .
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/ci-python-pipeline:latest
+          tags: lakshmipriya44/ci-python-pipeline:latest
+
+
 
       # Step 5: Configure AWS credentials
       - name: Configure AWS credentials
